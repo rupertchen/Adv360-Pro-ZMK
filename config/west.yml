@@ -9,5 +9,7 @@ manifest:
       remote: refil
       revision: adv360-z3.2-3
       import: app/west.yml
+    - name: zmk-helpers
+      path: modules/zmk/helpers
   self:
     path: config
