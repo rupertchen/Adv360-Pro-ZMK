@@ -26,9 +26,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             hold-trigger-key-positions = <0 1 2 3 4 5 6 20 34 33 19 51 64 50 32 18 17 31 49 63 62 48 30 16 15 29 47 61 14 28 46 60 65 66 67 52 36 35>;
             hold-trigger-on-release;
+            quick-tap-ms = <200>;
         };
 
         HMShiftL: HMShiftL {
@@ -37,9 +38,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             hold-trigger-on-release;
             hold-trigger-key-positions = <68 69 70 37 53 38 75 74 73 72 71 54 55 57 56 58 59 45 44 43 42 41 40 39 21 22 23 24 25 26 27 13 12 11 10 9 8 7>;
+            quick-tap-ms = <200>;
         };
 
         HMR: HMR {
@@ -48,10 +50,11 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             hold-trigger-key-positions = <0 1 2 3 4 5 6 20 34 33 19 51 64 50 32 18 17 31 49 63 62 48 30 16 15 29 47 61 14 28 46 60 65 66 67 52 36 35>;
             hold-trigger-on-release;
             flavor = "tap-preferred";
+            quick-tap-ms = <200>;
         };
 
         HML: HML {
@@ -60,10 +63,11 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             hold-trigger-on-release;
             hold-trigger-key-positions = <68 69 70 37 53 38 75 74 73 72 71 54 55 57 56 58 59 45 44 43 42 41 40 39 21 22 23 24 25 26 27 13 12 11 10 9 8 7>;
             flavor = "tap-preferred";
+            quick-tap-ms = <200>;
         };
     };
 
