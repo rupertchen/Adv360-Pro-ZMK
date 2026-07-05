@@ -71,6 +71,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo_caps_word {
+            bindings = <&caps_word>;
+            key-positions = <32 41>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
